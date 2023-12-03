@@ -1,0 +1,19 @@
+.parent{
+  height: 500px;
+  background-color: rgb(195, 195, 221);
+  overflow: auto;
+  border: 1px solid black;
+  border-top-left-radius: 20px ;
+  border-bottom-left-radius: 20px;
+}
+
+.parent__item{
+  width: 20%;
+  height: 200px;
+  margin: 10px  ;
+  display: inline-block;
+  background-color: rgb(188, 161, 161);
+  padding: 10px;
+  border-radius: 30px;
+  box-shadow: 0px 1px 29px 8px rgba(34, 60, 80, 0.21) inset;
+}
