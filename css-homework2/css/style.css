@@ -5,7 +5,7 @@
   border: 1px solid black;
   border-top-left-radius: 20px ;
   border-bottom-left-radius: 20px;
-  white-space: wrap;
+  white-space: nowrap;
 }
 
 .parent__item{
