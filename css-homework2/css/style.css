@@ -1,13 +1,15 @@
 .parent{
   height: 500px;
   background-color: rgb(195, 195, 221);
-  overflow: none;
+  overflow: auto;
   border: 1px solid black;
   border-top-left-radius: 20px ;
   border-bottom-left-radius: 20px;
+  white-space: wrap;
 }
 
 .parent__item{
+  
   width: 20%;
   height: 200px;
   margin: 10px  ;
