@@ -1,0 +1,157 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 150%;
+    font-size: 1em;
+}
+
+.header{
+    background-color: #fff;
+    max-height: 100%;
+
+}
+
+.container{
+    max-width:1200px ;
+    margin: 0 auto;
+}
+
+.header__inner{
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    padding: 30px 0;
+    justify-content: space-between;
+    position: relative;
+}
+
+.header__nav{
+    display: flex;
+    align-items: center;
+}
+
+.header__nav-item{
+    margin-right: 30px;
+    transition: all 0.3s;
+}
+
+.header__nav-item:hover{
+    color: #1D6FB6 ;
+}
+
+.header__nav-item:last-child{
+    margin-right: 0;
+}
+
+.header__logo{
+    max-width: 54px;
+    max-height: 48px;
+    position: absolute;
+    left: calc(50% - 27px);
+}
+
+.header__links{
+    display: flex;
+    align-items: center;
+}
+
+.header__links-item{
+    margin-right: 30px;
+    transition: all 0.3s;
+}
+
+.header__links-item:hover{
+    color: #1D6FB6 ;
+}
+
+.header__links-item:last-child{
+    margin-right: 0;
+}
+
+/* ------------------------------------------------ */
+
+.main__top{
+    color: #fff;
+    max-height: 100%;
+    position: relative;
+}
+
+.main__inner1{
+    padding: 120px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.main__h1{
+    font-size: 52px;
+    font-weight: 600;
+    margin-bottom: 36px;
+    line-height: 150%;
+}
+
+.main__list-pic{
+    margin-right: 18px;
+}
+
+.main__list{
+    font-size: 24px;
+    margin-bottom: 40px;
+    line-height: 150%;
+}
+
+.main__list-item{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+..main__list-item:last-child{
+    margin-bottom: 0;
+}
+
+.main__btn{
+    background-color: #D0DCE7;
+    border-radius: 100px;
+    padding: 18px 30px;
+    min-width: 288px;
+    text-align: center;
+    color: #1D6FB6;
+    font-weight: 500;
+    transition: all 0.3s;
+    line-height: 150%;
+}
+
+.main__btn:hover{
+    background-color: #83ADD3;
+    color: #fff;
+}
+
+.video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+
+.main__inner1-bg{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.video::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(16, 46, 73, 0.8);
+    opacity: 80%;
+}
