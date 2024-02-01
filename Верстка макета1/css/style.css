@@ -305,7 +305,7 @@ body{
 }
 
 .gallery__megahit{
-    width: 148px;
+    width: 130px;
     height: 56px;
     background-color: #fff;
     position: absolute;
@@ -342,12 +342,12 @@ body{
 
 @keyframes megahit{
     0%{
-        width: 148px;
+        width: 130px;
     }
     50%{
-        width: 170px;
+        width: 148px;
     }
     100%{
-        width: 148px;
+        width: 130px;
     }
 }
